@@ -30,6 +30,18 @@ taxons = [
     taxonomy: categories,
   },
   {
+    name: "Brands",
+    taxonomy: Brands,
+  },
+  {
+    name: "Solidus",
+    taxonomy: solidus,
+    parent: "Brands",
+    products: [
+      products[:solidus_cap]
+    ]
+  },
+  {
     name: "Clothing",
     taxonomy: categories,
     parent: "Categories"
