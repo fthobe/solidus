@@ -80,9 +80,8 @@ You can try the live Solidus demo [here.](http://demo.solidus.io/) The admin sec
 ## Getting started
 
 Begin by making sure you have
-[Imagemagick](http://imagemagick.org/script/download.php) installed, which is
-required for Paperclip. (You can install it using [Homebrew](https://brew.sh) if
-you're on a Mac.)
+If you use Active Storage [libvips](https://github.com/libvips/libvips) is required to be installed on your system. If you still use paperclip, [Imagemagick](http://imagemagick.org/script/download.php) is a requirement.
+You can install them using [Homebrew](https://brew.sh) if you're on a Mac.
 
 To add Solidus, begin with a newly created Rails application with its database.
 
